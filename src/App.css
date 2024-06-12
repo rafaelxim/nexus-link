@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 15vw;
+  display: block;
+}
+
+#construction {
+  display: block;
+  width: 40vw;
+}
+
+.title {
+  font-size: 1.4vw;
+  line-height: 1.1;
+  color: #273f94;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  #logo {
+    width: 10em;
+  }
+
+  #construction {
+    width: 20em;
+  }
+
+  .title {
+    font-size: 1em;
+  }
+}
